@@ -64,7 +64,7 @@
       <h1 class="mt-4">Nuovo Libro</h1>
 
 
-      <form class="row g-3" action="">
+      <form class="row g-3">
         <div class="col-6">
           <label for="nome-autore" class="form-label">Nome Autore</label>
           <input type="text" class="form-control" id="nome-autore" placeholder="Inserisci il nome dell'autore">
@@ -81,7 +81,7 @@
       <form class="row mt-3">
         <div class="col-12 ">
           <label for="titolo-libro" class="form-label">Titolo</label>
-          <input type="text" class="form-control" id="titolo-libro" aria-describedby="titleHelp"
+          <input type="text" class="form-control" id="titolo-libro" 
             placeholder="Inserisci il titolo del libro">
           <div id="TitleHelp" class="form-text">Titolo versione italiana</div>
 
@@ -91,7 +91,7 @@
         </div>
         <div class="col-12 col-lg-4 my-4">
           <label for="genere-libro" class="form-label">Genere</label>
-          <select class="form-select" aria-label="Default select example">
+          <select class="form-select" id="genere-libro" aria-label="Default select example">
             <option selected>Scegli il genere</option>
             <option value="1">Gialli</option>
             <option value="2">Fantasy</option>
@@ -132,11 +132,12 @@
           </label>
         </div>
 
-        <div class="d-grid gap-2 d-md-block mt-3">
-          <button class="btn btn-primary" type="button">Aggiungi un libro</button>
+        
           
+        
+        <div class="d-md-flex justify-content-start mt-3">         
+          <button class="btn btn-primary" type="button">Aggiungi un libro</button>
         </div>
-
 
 
 
